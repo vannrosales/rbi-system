@@ -30,7 +30,7 @@ Action-Ready Ledger: Hover-state buttons for Edit/Delete to keep the interface c
 🔧 Technical Core
 Backend: Laravel 11 (PHP 8.3)
 
-Frontend: React 19 + Inertia.js (Modern "Vibe" Stack)
+Frontend: React 19 + Inertia.js 
 
 Styling: Tailwind CSS 4 (Clean Light Mode)
 
