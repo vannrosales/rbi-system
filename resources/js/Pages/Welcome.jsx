@@ -5,7 +5,7 @@ import StatCard from '../Components/StatCard';
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     return (
         <>
-            <Head title="RBI Barangay 3 - Landing Page" />
+            <Head title="RBI Lawaan" />
 
 
             <div className="relative min-h-screen bg-slate-50 text-slate-900 selection:bg-blue-600 selection:text-white">
@@ -59,20 +59,17 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         <main className="mt-12 text-center lg:text-left grid lg:grid-cols-2 gap-12 items-center">
                             <section>
                                 <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-700 uppercase bg-blue-100 rounded-full">
-                                    Registry of Barangay Inhabitants (RBI)
+                                    Registry of Lawaan Inhabitants (RBI)
                                 </div>
                                 <h2 className="text-5xl lg:text-7xl font-black leading-[1.1] mb-6">
                                     Smart Registry for a <span className="text-blue-600 underline decoration-blue-200">Better Service.</span>
                                 </h2>
                                 <p className="text-lg text-slate-500 mb-10 max-w-lg mx-auto lg:mx-0">
-                                    Efficiently managing Barangay 3's community data. Secure, reliable, and compliant with DILG standards.
+                                    Efficiently managing Lawaan's community data. Secure, reliable, and compliant with DILG standards.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                                     <button className="px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold text-lg hover:bg-slate-800 transition shadow-xl active:scale-95">
                                         Register Inhabitant
-                                    </button>
-                                    <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-2xl font-bold text-lg hover:bg-slate-50 transition shadow-sm">
-                                        View Demographics
                                     </button>
                                 </div>
                             </section>
@@ -94,7 +91,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                         </div>
 
                         <footer className="py-20 text-center text-xs font-medium text-slate-400 uppercase tracking-widest">
-                            Official B3 RBI System &bull; Laravel v{laravelVersion} (PHP v{phpVersion})
+                            Official Lawaan RBI System &bull; Laravel v{laravelVersion} (PHP v{phpVersion})
                         </footer>
                     </div>
                 </div>

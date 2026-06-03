@@ -57,3 +57,4 @@ class StoreInhabitantRequest extends FormRequest
         ];
     }
 }
+

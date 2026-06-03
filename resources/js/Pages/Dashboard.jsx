@@ -11,7 +11,7 @@ export default function Dashboard({ auth, totalInhabitants, totalHouseholds, tot
             header={
                 <div className="flex items-center justify-between">
                     <h2 className="text-2xl font-black tracking-tight text-slate-900">
-                        Admin <span className="text-blue-600">Dashboard</span>
+                        Staff <span className="text-blue-600">Dashboard</span>
                     </h2>
                     <div className="hidden sm:block text-sm font-bold text-slate-500 bg-slate-100 px-4 py-1.5 rounded-full border border-slate-200">
                         Barangay 3 Official Records
@@ -19,7 +19,7 @@ export default function Dashboard({ auth, totalInhabitants, totalHouseholds, tot
                 </div>
             }
         >
-            <Head title="Dashboard - RBI B3" />
+            <Head title="Dashboard - RBI Lawaan" />
 
             <div className="py-12 bg-slate-50/50 min-h-[calc(100vh-80px)]">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -29,7 +29,7 @@ export default function Dashboard({ auth, totalInhabitants, totalHouseholds, tot
                         <div className="relative z-10">
                             <h3 className="text-3xl font-black text-white tracking-tight">Mabuhay, {firstName}!</h3>
                             <p className="text-slate-400 mt-2 max-w-md font-medium">
-                                Managing the Registry of Barangay Inhabitants for <span className="text-blue-400">Barangay 3</span>.
+                                Managing the Registry of Lawaan Inhabitants for <span className="text-blue-400">Barangay 3</span>.
                             </p>
                         </div>
                         <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl group-hover:bg-blue-600/30 transition-all duration-700"></div>
@@ -58,15 +58,6 @@ export default function Dashboard({ auth, totalInhabitants, totalHouseholds, tot
                                     <div className="bg-white/20 p-2 rounded-lg group-hover:rotate-12 transition text-xl">➕</div>
                                     Register Inhabitant
                                 </Link>
-
-                                <div className="p-2 space-y-1">
-                                    <Link href={route('inhabitants.index')} className="flex items-center gap-4 p-4 w-full text-slate-600 rounded-xl font-bold hover:bg-slate-50 transition border border-transparent hover:border-slate-100">
-                                        <span className="text-xl">🗂️</span> Registry Ledger
-                                    </Link>
-                                    <button className="flex items-center gap-4 p-4 w-full text-slate-600 rounded-xl font-bold hover:bg-slate-50 transition border border-transparent hover:border-slate-100 text-left">
-                                        <span className="text-xl">📜</span> Barangay Clearance
-                                    </button>
-                                </div>
                             </div>
                         </div>
 

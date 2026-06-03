@@ -8,9 +8,9 @@ import InputError from '@/Components/InputError';
 export default function Create({ auth }) {
     const { data, setData, post, processing, errors } = useForm({
         region: 'Region VIII',
-        province: 'Lawaan',
-        city_municipality: 'Lawaan',
-        barangay: 'Barangay 3',
+        province: 'EASTERN SAMAR',
+        city_municipality: 'LAWAAN',
+        barangay: 'BARANGAY 3',
         street_name: '',
 
 

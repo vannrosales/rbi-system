@@ -10,9 +10,9 @@ export default function Edit({ auth, inhabitant }) {
     const { data, setData, patch, processing, errors } = useForm({
         // Geographic Info
         region: inhabitant.region || 'Region VIII',
-        province: inhabitant.province || 'Leyte',
-        city_municipality: inhabitant.city_municipality || '',
-        barangay: inhabitant.barangay || 'Barangay 3',
+        province: inhabitant.province || 'Eastern Samar',
+        city_municipality: inhabitant.city_municipality || 'LAWAAN',
+        barangay: inhabitant.barangay || 'BARANGAY 3',
         street_name: inhabitant.street_name || '',
 
         // Personal Info
@@ -26,7 +26,7 @@ export default function Edit({ auth, inhabitant }) {
         civil_status: inhabitant.civil_status || '',
         citizenship: inhabitant.citizenship || 'Filipino',
         occupation: inhabitant.occupation || '',
-        special_indication: inhabitant.special_indication || '', // matched column name
+        special_indication: inhabitant.special_indication || '', 
         relationship_to_head: inhabitant.relationship_to_head || '',
     });
 
@@ -50,7 +50,7 @@ export default function Edit({ auth, inhabitant }) {
                 </div>
             }
         >
-            <Head title={`Edit ${inhabitant.last_name} - B3`} />
+            <Head title={`Edit ${inhabitant.last_name} - Carigara`} />
 
             <div className="py-12 max-w-5xl mx-auto sm:px-6 lg:px-8">
                 <form onSubmit={submit} className="space-y-8">
